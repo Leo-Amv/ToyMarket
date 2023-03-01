@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="toy service added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/view/FileView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/view/ToyView.java" afterDir="false" />
+    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="view added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/market/service/ToyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/service/ToyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677630083108</updated>
-      <workItem from="1677630086983" duration="6107000" />
+      <workItem from="1677630086983" duration="8164000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1677630276097</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677634555686</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="view added">
+      <created>1677636509683</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677636509683</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +128,7 @@
     <MESSAGE value="Prize added" />
     <MESSAGE value="Interface for toys service added" />
     <MESSAGE value="toy service added" />
-    <option name="LAST_COMMIT_MESSAGE" value="toy service added" />
+    <MESSAGE value="view added" />
+    <option name="LAST_COMMIT_MESSAGE" value="view added" />
   </component>
 </project>

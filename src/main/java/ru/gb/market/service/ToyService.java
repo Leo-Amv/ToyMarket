@@ -11,19 +11,19 @@ import java.util.Random;
 public class ToyService implements IService {
     private final List<Toy> allToys;
     private final List<Prize> prizeList;
-    private Integer max_chance = 100;
+    private final Integer max_chance = 100;
 
     public ToyService() {
-        this.allToys = new ArrayList<Toy>();
-        this.prizeList = new ArrayList<Prize>();
+        this.allToys = new ArrayList<>();
+        this.prizeList = new ArrayList<>();
     }
 
     @Override
     public void addToys(String name, Integer count, Integer chance) {
         Long id = 0L;
         for(Toy item: this.allToys) {
-            if(id < ((Toy) item).getId()) {
-                id = ((Toy) item).getId();
+            if(id < item.getId()) {
+                id = item.getId();
             }
         }
         Toy toy = new Toy(++id, name, count, chance) { };
@@ -33,13 +33,13 @@ public class ToyService implements IService {
     @Override
     public void raffleToys(String firstName, String lastName, String phone) {
         Random r = new Random();
-        Integer randNum = r.nextInt(this.allToys.size());
-        Integer randChance = r.nextInt(max_chance);
-        if (randChance >= 0 && randChance <= this.allToys.get(randNum).getChance()) {
+        int randNum = r.nextInt(this.allToys.size());
+        int randChance = r.nextInt(max_chance);
+        if (randChance <= this.allToys.get(randNum).getChance()) {
             Long id = 0L;
             for(Prize item: this.prizeList) {
-                if(id < ((Prize) item).getId()) {
-                    id = ((Prize) item).getId();
+                if(id < item.getId()) {
+                    id = item.getId();
                 }
             }
             Prize prize = new Prize(++id, this.allToys.get(randNum).getName(), 1,
@@ -69,7 +69,7 @@ public class ToyService implements IService {
             }
         }
         if (!flag) {
-            throw new Exception("Позиция для выдачи не найдена!");
+            throw new Exception("Prize not found!");
         }
     }
 
