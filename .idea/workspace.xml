@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="Toy &quot;to string&quot; added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/data/Prize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="Prize added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/data/IService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677630083108</updated>
-      <workItem from="1677630086983" duration="1650000" />
+      <workItem from="1677630086983" duration="1983000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1677630276097</created>
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677631384734</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prize added">
+      <created>1677631805502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677631805502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,7 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="Toy added" />
     <MESSAGE value="Toy &quot;to string&quot; added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Toy &quot;to string&quot; added" />
+    <MESSAGE value="Prize added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prize added" />
   </component>
 </project>
