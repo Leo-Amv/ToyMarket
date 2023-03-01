@@ -44,4 +44,9 @@ public abstract class Toy {
     public void setChance(Integer chance) {
         this.chance = chance;
     }
+
+    @Override
+    public String toString() {
+        return "Toy [id=" + id + ", name=" + name + ", count=" + count + ", chance=" + chance + "]";
+    }
 }
