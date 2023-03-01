@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="Interface for toys service added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/service/ToyService.java" afterDir="false" />
+    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="toy service added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/view/FileView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/view/ToyView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677630083108</updated>
-      <workItem from="1677630086983" duration="4251000" />
+      <workItem from="1677630086983" duration="6107000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1677630276097</created>
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677632342757</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="toy service added">
+      <created>1677634555686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677634555686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +120,7 @@
     <MESSAGE value="Toy &quot;to string&quot; added" />
     <MESSAGE value="Prize added" />
     <MESSAGE value="Interface for toys service added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface for toys service added" />
+    <MESSAGE value="toy service added" />
+    <option name="LAST_COMMIT_MESSAGE" value="toy service added" />
   </component>
 </project>
