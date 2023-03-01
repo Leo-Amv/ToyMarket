@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="view added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/controller/Controller.java" afterDir="false" />
+    <list default="true" id="e2609850-4e9e-40ef-a228-f1b0904e7696" name="Changes" comment="commands added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/view/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/market/service/ToyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/service/ToyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/market/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/market/view/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/market/view/Commands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677630083108</updated>
-      <workItem from="1677630086983" duration="8164000" />
+      <workItem from="1677630086983" duration="9768000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1677630276097</created>
@@ -104,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677636509683</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="controller added">
+      <created>1677638307845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677638307845</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commands added">
+      <created>1677638387954</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677638387954</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +145,8 @@
     <MESSAGE value="Interface for toys service added" />
     <MESSAGE value="toy service added" />
     <MESSAGE value="view added" />
-    <option name="LAST_COMMIT_MESSAGE" value="view added" />
+    <MESSAGE value="controller added" />
+    <MESSAGE value="commands added" />
+    <option name="LAST_COMMIT_MESSAGE" value="commands added" />
   </component>
 </project>

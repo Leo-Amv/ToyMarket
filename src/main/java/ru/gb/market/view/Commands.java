@@ -4,7 +4,7 @@ public enum Commands {
     NONE,
     ADD,
     UPD,
-    RUFF,
+    RAF,
     GET,
-    EXIT
+    EXT
 }
