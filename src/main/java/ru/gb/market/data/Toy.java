@@ -1,6 +1,6 @@
 package ru.gb.market.data;
 
-public abstract class Toy {
+public class Toy {
     private Long id;
     private String name;
     private Integer count;
